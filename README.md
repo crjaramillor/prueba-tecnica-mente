@@ -32,17 +32,11 @@ Este proyecto contiene una aplicación completa de gestión de productos con bac
 ```bash
 cd backend
 .\mvnw.cmd spring-boot:run    # Windows
-# o
-./mvnw spring-boot:run         # Linux/Mac
 ```
 
 El backend estará disponible en: `http://localhost:8080`
 
-**Nota:** El script `start.bat` busca Java automáticamente en:
-- `C:\Program Files\Java\jdk*`
-- `C:\Program Files (x86)\Java\jdk*`
-- `D:\Program Files\Java\jdk*`
-- O desde el PATH del sistema
+**Nota:** El script `start.bat` busca Java automáticamente
 
 ### Frontend
 
@@ -67,29 +61,25 @@ El frontend estará disponible en: `http://localhost:3000`
 ## Características Implementadas
 
 ### Backend
-- ✅ Separación clara por capas (controller, service, model, dto, exception handler)
-- ✅ CRUD completo de productos
-- ✅ Validaciones (nombre obligatorio, precio > 0)
-- ✅ Prevención de nombres duplicados
-- ✅ Manejo centralizado de errores
-- ✅ DTOs para validaciones
-- ✅ Comentarios explicativos
-- ✅ CORS habilitado para el frontend
+- Separación clara por capas (controller, service, model, dto, exception handler)
+- Validaciones 
+- Prevención de nombres duplicados
+- Manejo centralizado de errores
+- DTOs para validaciones
+- Comentarios
+- CORS habilitado para el frontend
 
 ### Frontend
-- ✅ Listar productos con tabla
-- ✅ Crear producto con formulario y validaciones
-- ✅ Editar producto
-- ✅ Eliminar producto con confirmación
-- ✅ Estados de carga y errores
-- ✅ Componentes reutilizables
-- ✅ Estilos limpios y modernos
-- ✅ Buen uso de hooks (useState, useEffect)
+- CRUD completo de productos
+- Listar productos con tabla
+- Crear producto con formulario y validaciones
+- Editar producto
+- Eliminar producto con confirmación
+- Estados de carga y errores
 
 ## Notas
 
-- Los datos se almacenan en memoria (no hay persistencia)
-- Los datos se pierden al reiniciar el servidor backend
+- Los datos se almacenan en memoria unicamente
 - El frontend está configurado para conectarse a `http://localhost:8080`
 
 

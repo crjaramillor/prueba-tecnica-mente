@@ -94,21 +94,8 @@ Elimina un producto por ID.
 
 ## Ejecutar la Aplicación
 
-**Windows:**
 ```bash
 .\mvnw.cmd spring-boot:run
 ```
 
-**Linux/Mac:**
-```bash
-./mvnw spring-boot:run
-```
-
 La API estará disponible en: `http://localhost:8080`
-
-## Notas
-
-- Los datos se almacenan en memoria (no hay persistencia)
-- Los datos se pierden al reiniciar el servidor
-- CORS habilitado para permitir peticiones desde el frontend
-

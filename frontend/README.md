@@ -73,16 +73,3 @@ La URL de la API está configurada en `src/services/productoService.js`:
 ```javascript
 const API_URL = 'http://localhost:8080/productos';
 ```
-
-Asegúrate de que el backend esté ejecutándose en el puerto 8080.
-
-## Características Adicionales
-
-- ✅ Componentes reutilizables (ProductoLista, ProductoItem, ProductoFormulario)
-- ✅ Estilos limpios y modernos con CSS
-- ✅ Buen uso de useState y useEffect
-- ✅ Estructura clara por carpetas
-- ✅ Manejo de errores y estados de carga
-- ✅ Validaciones en el frontend
-- ✅ Formato de moneda para precios
-
