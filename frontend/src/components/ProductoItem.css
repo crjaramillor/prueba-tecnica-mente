@@ -1,0 +1,20 @@
+.producto-nombre {
+  font-weight: 500;
+  color: #333;
+}
+
+.producto-precio {
+  font-weight: 600;
+  color: #28a745;
+}
+
+.acciones-item {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 0.875rem;
+}
+

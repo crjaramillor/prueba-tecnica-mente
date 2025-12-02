@@ -1,0 +1,56 @@
+.producto-lista {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.producto-tabla {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.producto-tabla thead {
+  background-color: #f8f9fa;
+}
+
+.producto-tabla th {
+  padding: 15px;
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.producto-tabla td {
+  padding: 15px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.producto-tabla tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.producto-tabla tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.sin-productos {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sin-productos p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.sin-productos-subtitulo {
+  font-size: 1rem !important;
+  color: #999 !important;
+}
+
